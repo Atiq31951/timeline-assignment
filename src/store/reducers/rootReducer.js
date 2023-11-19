@@ -1,11 +1,9 @@
 import { combineReducers } from "redux";
 
-import counterReducer1 from "./counter1";
-import counterReducer2 from "./counter2";
+import timelineListReducer from "./timelineList";
 
 const allReducers = combineReducers({
-  counter1: counterReducer1,
-  counter2: counterReducer2,
+  timeline: timelineListReducer,
 });
 
 export default allReducers;
